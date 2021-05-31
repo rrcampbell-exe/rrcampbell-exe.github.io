@@ -1,0 +1,84 @@
+body {
+    font-family: "Menlo", monospace, sans-serif;
+    font-style: lighter; 
+    background-color: #d8d8d8; 
+}
+
+/* Header Style */
+
+header {
+    background-color: #477edb;
+}
+
+header h1 {
+    margin: 0px 3%;
+    padding: 10px 0 0 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header a {
+    color: #ffffff;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0px 0 10px 0;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px
+}
+
+header nav ul li {
+    padding: 3px 0; 
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* About Section Style */
+
+#about img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin: 5% 30%;
+}
+
+p span {
+    font-weight: bold;
+}
+
+/* Work Section Style */
+
+.image-one {
+    margin: 0 auto;
+    width: 90%;
+    display: flex; 
+    border: 2px #477edb solid;
+    opacity: 0.8;
+}
+
+.image-one:hover {
+    border: 2px #ffffff solid;
+    opacity: 1;
+}
+
+.projects h3, .projects p {
+    text-align: center;
+}
+
+.secondary-projects img {
+    display: inline;
+    height: 33%;
+    width: 33%;
+    margin: 0 auto; 
+}
+
+.secondary-projects h3, .secondary projects p {
+    text-align: center;
+}
