@@ -55,9 +55,35 @@ p span {
 
 /* Work Section Style */
 
+.projects {
+    position: relative;
+    display: inline-block;
+}
+
+.projects .feature-project-text {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 20%;
+    color: white; 
+    height: 50%;
+    width: 80%;
+}
+
+.projects .feature-project-text h3 {
+    font-size: 4vw;
+}
+
+.projects .feature-project-text p {
+    font-size: 3vw; 
+}
+
 .image-one {
     margin: 0 auto;
-    width: 90%;
+    width: 86%;
     display: flex; 
     border: 2px #477edb solid;
     opacity: 0.8;
@@ -72,13 +98,27 @@ p span {
     text-align: center;
 }
 
-.secondary-projects img {
-    display: inline;
-    height: 33%;
-    width: 33%;
-    margin: 0 auto; 
+.secondary-projects {
+    margin: 10px auto; 
+    width: 90%; 
+    display: flex; 
+    position: relative;
 }
 
-.secondary-projects h3, .secondary projects p {
+.secondary-projects .secondary-project-text {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     text-align: center;
+    color: white; 
+    width: 100%; 
+    top: 20%;
+}
+
+.secondary-projects img {
+    justify-content: center; 
+    width: 30%;
+    margin: 0 1.7%; 
 }
