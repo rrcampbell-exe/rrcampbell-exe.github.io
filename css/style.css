@@ -120,39 +120,21 @@ p span {
 }
 
 .secondary-projects {
-    margin: 10px auto; 
-    width: 90%; 
-    display: flex; 
-    position: relative;
-}
-
-.secondary-projects .secondary-project-text {
-    position: absolute;
-    z-index: 1;
+    width: 100%;
     margin: 0 auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: white; 
-    width: 100%; 
-    top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.project-two-text {
-
+.project-info {
+    margin: 10px;
+    flex: 1;
 }
 
-.project-three-text {
-
-}
-
-.project-four-text {
-
-}
-
-.secondary-projects img {
+.project-info img {
     justify-content: center; 
-    width: 30%;
+    width: 100%;
     margin-right: 3%;
     border: 2px #477edb solid;
     opacity: 0.8;
