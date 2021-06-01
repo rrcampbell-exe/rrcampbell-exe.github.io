@@ -44,6 +44,10 @@ header nav ul li {
 
 /* About Section Style */
 
+.about {
+    margin: 0 3%;
+}
+
 #about img {
     width: 40%;
     height: 40%;
@@ -56,6 +60,15 @@ p span {
 }
 
 /* Work Section Style */
+
+.work h2 {
+    margin: 0 3%;
+}
+
+.work p {
+    margin-right: 3%;
+    margin-left: 3%;
+}
 
 .projects {
     position: relative;
@@ -84,8 +97,8 @@ p span {
 }
 
 .image-one {
-    margin: 0 auto;
-    width: 86%;
+    margin: 0 3%;
+    width: 92%;
     display: flex; 
     border: 2px #477edb solid;
     opacity: 0.8;
@@ -122,5 +135,35 @@ p span {
 .secondary-projects img {
     justify-content: center; 
     width: 30%;
-    margin: 0 1.7%; 
+    margin-right: 3%;
+    border: 2px #477edb solid;
+    opacity: 0.8;
+}
+
+.secondary-projects img:hover {
+    border: 2px #ffffff solid;
+    opacity: 1;
+}
+
+/* Footer Style */
+
+.contact {
+    background-color: #477edb;
+    color: white;
+}
+
+.contact h2 {
+    margin: 0 3%;
+    padding: 10px 0 0 0; 
+}
+
+.contact a {
+    color: white;
+}
+
+.footer-elements {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin: 0 3%;
 }
