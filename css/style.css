@@ -82,6 +82,14 @@ p span {
     font-weight: bold;
 }
 
+#flags {
+    visibility: hidden;
+}
+
+#flags:hover {
+    visibility: initial;
+}
+
 /* Work Section Style */
 
 .work {
