@@ -28,11 +28,17 @@ header h1 {
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: 5px;
+    text-shadow: 2px 2px black; 
 }
 
 header a {
     color: #ffffff;
     text-decoration: none; 
+    text-shadow: 1px 2px black;
+}
+
+header a:hover {
+    font-style: italic;
 }
 
 header nav ul {
@@ -47,6 +53,16 @@ header nav ul li {
     padding: 0px 15px; 
     text-transform: uppercase;
     letter-spacing: 3px 
+}
+
+h2 {
+   text-shadow: 1px 2px white;  
+}
+
+h2:hover {
+    text-shadow: 1px 2px #477edb;
+    color: white; 
+    transition-duration: 1.0s;
 }
 
 /* About Section Style */
@@ -117,6 +133,7 @@ p span {
 .image-one:hover {
     border: 2px #ffffff solid;
     opacity: 1;
+    transition-duration: 1.0s;
 }
 
 .projects h3, .projects p {
@@ -154,6 +171,7 @@ p span {
 .secondary-projects img:hover {
     border: 2px #ffffff solid;
     opacity: 1;
+    transition-duration: 1.0s;
 }
 
 /* Footer Style */
@@ -166,10 +184,16 @@ p span {
 .contact h2 {
     margin: 0 3%;
     padding: 10px 0 10px 0; 
+    text-shadow: 1px 2px black;
 }
 
 .contact a {
     color: white;
+    text-decoration: none; 
+}
+
+.contact a:hover {
+    font-style: italic; 
 }
 
 .footer-elements {
@@ -188,4 +212,5 @@ p span {
 
 .contact h3 {
     padding: 0 10px 0 0; 
+    text-shadow: 1px 2px black;
 }
