@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -109,10 +109,8 @@ p span {
     left: 0;
     right: 0;
     text-align: center;
-    top: 20%;
-    color: white; 
-    height: 50%;
-    width: 80%;
+    top: 11%;
+    color: white;
 }
 
 .projects .feature-project-text h3 {
@@ -124,8 +122,11 @@ p span {
 }
 
 .image-one {
-    margin: 0 1% 0 1%;
-    width: 98%;
+    margin: 0 3%;
+    width: 94%;
+    height: 50%;
+    overflow: hidden; 
+    object-fit: cover;  
     border: 2px #477edb solid;
     opacity: 0.8;
     border-radius: 30px;
@@ -150,24 +151,22 @@ p span {
 }
 
 .secondary-projects {
-    margin: 0 auto;
+    margin: 0 3%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .project-info {
-    margin: 10px;
+    margin: 10px 0;
     flex: 1;
 }
 
 .project-info img {
-    justify-content: center; 
-    width: 100%;
-    margin-right: 3%;
+    width: 94%;
     border: 2px #477edb solid;
     opacity: 0.8;
-    border-radius: 30px; 
+    border-radius: 30px;
 }
 
 .secondary-projects img:hover {
