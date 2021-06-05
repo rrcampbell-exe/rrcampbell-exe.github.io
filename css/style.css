@@ -102,6 +102,20 @@ p span {
     flex-wrap: wrap; 
 }
 
+.projects h3, .projects p {
+    text-align: center;
+}
+
+.projects h3 {
+    font-size: 3vw; 
+}
+
+.projects p {
+    font-size: 2vw;
+}
+
+/* Feature Project Subsection Style */
+
 .projects .feature-project-text {
     position: absolute;
     z-index: 1;
@@ -142,17 +156,7 @@ p span {
     transition-duration: 1.0s;
 }
 
-.projects h3, .projects p {
-    text-align: center;
-}
-
-.projects h3 {
-    font-size: 3vw; 
-}
-
-.projects p {
-    font-size: 2vw;
-}
+/* Secondary Projects Subsection Style */
 
 .secondary-projects {
     margin: 0 3%;
@@ -292,6 +296,8 @@ p span {
 
 }
 
+/* 1024 px and Above Styles Begin */
+
 @media screen and (min-width: 1024px) {
     .feature-project {
         height: 400px;
@@ -302,11 +308,15 @@ p span {
     }
 }
 
+/* 1440 px and Above Styles Begin */
+
 @media screen and (min-width: 1440px) {
     .feature-project {
         height: 450px;
     }
 }
+
+/* 2560 px and Above Styles Begin */
 
 @media screen and (min-width: 2560px) {
     .feature-project {
