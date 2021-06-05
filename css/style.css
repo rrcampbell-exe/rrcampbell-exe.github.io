@@ -98,8 +98,6 @@ p span {
 
 .projects {
     position: relative; 
-    display: flex; 
-    flex-wrap: wrap; 
 }
 
 .projects h3, .projects p {
@@ -139,6 +137,10 @@ p span {
     height: 200px; 
 }
 
+.feature-project a {
+    text-decoration: none;
+}
+
 .image-one {
     margin: 0 3%;
     width: 94%;
@@ -161,8 +163,6 @@ p span {
 .secondary-projects {
     margin: 0 3%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .project-info {
@@ -171,7 +171,7 @@ p span {
 }
 
 .project-info img {
-    width: 94%;
+    width: 100%;
     border: 2px #477edb solid;
     opacity: 0.8;
     border-radius: 30px;
@@ -181,6 +181,14 @@ p span {
     border: 2px #ffffff solid;
     opacity: 1;
     transition-duration: 1.0s;
+}
+
+#image-two-container {
+    margin-right: 10px;
+}
+
+#image-four-container {
+    margin-left: 10px;
 }
 
 /* Footer Style */
