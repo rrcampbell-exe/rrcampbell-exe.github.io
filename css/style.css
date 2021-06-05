@@ -109,7 +109,7 @@ p span {
     left: 0;
     right: 0;
     text-align: center;
-    top: 11%;
+    top: 18%;
     color: white;
 }
 
@@ -121,10 +121,14 @@ p span {
     font-size: 3vw; 
 }
 
+.feature-project {
+    height: 200px; 
+}
+
 .image-one {
     margin: 0 3%;
     width: 94%;
-    height: 50%;
+    height: 100%;
     overflow: hidden; 
     object-fit: cover;  
     border: 2px #477edb solid;
@@ -268,6 +272,14 @@ p span {
 
     .projects p {
         font-size: initial;
+    }
+
+    .feature-project {
+        height: 350px;
+    }
+
+    .projects .feature-project-text {
+        top: 20%
     }
 
 }
