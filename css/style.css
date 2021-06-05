@@ -235,6 +235,14 @@ p span {
         justify-content: center;
         font-size: 4vw;
     }
+
+    .feature-project {
+        height: 200px;
+    }
+
+    .projects .feature-project-text {
+        top: 19.5%; 
+    }
 }
 
 /* 768 px and Above Styles Begin */
@@ -282,4 +290,30 @@ p span {
         top: 20%
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    .feature-project {
+        height: 400px;
+    }
+
+    .projects .feature-project-text {
+        top: 19%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .feature-project {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .feature-project {
+        height: 600px;
+    }
+
+    .projects .feature-project-text {
+        top: 16%;
+    }
 }
