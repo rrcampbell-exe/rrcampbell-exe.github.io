@@ -56,7 +56,8 @@ header nav ul li {
 }
 
 h2 {
-   text-shadow: 1px 2px white;  
+   text-shadow: 1px 2px white;
+   margin-bottom: 10px;
 }
 
 h2:hover {
@@ -89,7 +90,7 @@ p span {
 }
 
 .work h2 {
-    margin: auto 3%;
+    margin: auto 3% 10px 3%;
 }
 
 .work p {
