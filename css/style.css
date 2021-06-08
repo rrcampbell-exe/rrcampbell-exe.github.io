@@ -83,6 +83,10 @@ p span {
     font-weight: bold;
 }
 
+.about ul li {
+    margin: 0 0 10px 40px;
+}
+
 /* Work Section Style */
 
 .work {
