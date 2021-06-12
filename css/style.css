@@ -56,17 +56,23 @@ header nav ul li {
 }
 
 h2 {
-   text-shadow: 1px 2px white;
    margin-bottom: 10px;
 }
 
-h2:hover {
+/* About Section Style */
+
+.about-text h2 {
+    text-shadow: 1px 2px white;
+    color: black; 
+    transition-duration: .5s;
+    letter-spacing: 0;
+}
+.about-text:hover h2 {
     text-shadow: 1px 2px #477edb;
     color: white; 
     transition-duration: .5s;
+    letter-spacing: 3px;
 }
-
-/* About Section Style */
 
 .about {
     margin: 0 3%;
@@ -79,7 +85,7 @@ h2:hover {
     margin: 5% 25%;
 }
 
-p span {
+.skill {
     font-weight: bold;
 }
 
@@ -95,14 +101,39 @@ p span {
     font-weight: initial;
 }
 
+.bio #highlight {
+    color: black;
+    transition-duration: 0.5s;
+    text-shadow: none;
+    letter-spacing: 0;
+}
+
 .bio:hover #highlight {
     color: #477edb;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     text-shadow: 1px 2px white;
+    letter-spacing: 1px;
+}
+
+.programming #prog-lang {
+    color: black; 
+    transition-duration: 0.5s;
+    letter-spacing: 0;
 }
 
 .programming:hover #prog-lang {
     color: green; 
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
+}
+
+.expand-class #expand-item {
+    letter-spacing: 0;
+    transition-duration: 0.5s;
+}
+.expand-class:hover #expand-item {
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
 }
 
 .about ul li {
@@ -111,12 +142,23 @@ p span {
 
 /* Work Section Style */
 
-.work {
-    margin: 15px 0; 
+.work h2 {
+    text-shadow: 1px 2px white;
+    color: black; 
+    transition-duration: .5s;
+    letter-spacing: 0;
+    margin: auto 3% 10px 3%;
+}
+.work:hover h2 {
+    text-shadow: 1px 2px #477edb;
+    color: white; 
+    transition-duration: .5s;
+    letter-spacing: 3px;
+    margin: auto 3% 10px 3%;
 }
 
-.work h2 {
-    margin: auto 3% 10px 3%;
+.work {
+    margin: 15px 0; 
 }
 
 .work p {
