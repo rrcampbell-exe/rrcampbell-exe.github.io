@@ -82,6 +82,14 @@ p span {
     font-weight: bold;
 }
 
+#prog-lang {
+    font-weight: initial;
+}
+
+#human-lang {
+    font-weight: initial;
+}
+
 /* Work Section Style */
 
 .work {
