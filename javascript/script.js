@@ -2,12 +2,12 @@
 
 var programLangEl = document.querySelector("#prog-lang");
 var programLangMouseOver = function(event) {
-    programLangEl.textContent = " <!-- HTML --!>, /* CSS */, // JavaScript"
+    programLangEl.textContent = " <!-- HTML5 --!>, /* CSS3 */, // JavaScript ES6+"
 };
 programLangEl.addEventListener("mouseover", programLangMouseOver);
 
 var programLangMouseOut = function(event) {
-    programLangEl.textContent = " HTML, CSS, JavaScript"
+    programLangEl.textContent = " HTML5, CSS3, JavaScript ES6+"
 };
 
 programLangEl.addEventListener("mouseout", programLangMouseOut);

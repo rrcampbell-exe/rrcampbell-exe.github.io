@@ -63,7 +63,7 @@ h2 {
 h2:hover {
     text-shadow: 1px 2px #477edb;
     color: white; 
-    transition-duration: 1.0s;
+    transition-duration: .5s;
 }
 
 /* About Section Style */
@@ -81,6 +81,28 @@ h2:hover {
 
 p span {
     font-weight: bold;
+}
+
+#prog-lang {
+    font-weight: initial;
+}
+
+#human-lang {
+    font-weight: initial;
+}
+
+#highlight {
+    font-weight: initial;
+}
+
+.bio:hover #highlight {
+    color: #477edb;
+    transition-duration: .5s;
+    text-shadow: 1px 2px white;
+}
+
+.programming:hover #prog-lang {
+    color: green; 
 }
 
 .about ul li {
