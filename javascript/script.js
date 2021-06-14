@@ -16,12 +16,17 @@
 
 // var humanLangEl = document.querySelector("#human-lang");
 // var humanLangMouseOver = function(event) {
-//     humanLangEl.textContent = " English 🇺🇸, Portuguese 🇧🇷, Spanish 🇪🇸, German 🇩🇪, French 🇫🇷"
+//     setTimeout (function() {
+//         humanLangEl.textContent = " English 🇺🇸, Portuguese 🇧🇷, Spanish 🇪🇸, German 🇩🇪, French 🇫🇷";
+//     }, 500)
+    
 // };
 // humanLangEl.addEventListener("mouseover", humanLangMouseOver);
 
 // var humanLangMouseOut = function(event) {
-//     humanLangEl.textContent = " English, Portuguese, Spanish, German, French"
+//     setTimeout (function() {
+//         humanLangEl.textContent = " English, Portuguese, Spanish, German, French";
+//     }, 500)
 // };
 
 // humanLangEl.addEventListener("mouseout", humanLangMouseOut);
