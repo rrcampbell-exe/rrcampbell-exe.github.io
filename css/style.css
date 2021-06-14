@@ -228,12 +228,13 @@ h2 {
     border: 2px #477edb solid;
     opacity: 0.8;
     border-radius: 30px;
+    transition-duration: 0.5s;
 }
 
 .image-one:hover {
     border: 2px #ffffff solid;
     opacity: 1;
-    transition-duration: 1.0s;
+    transition-duration: 0.5s;
 }
 
 /* Secondary Projects Subsection Style */
@@ -253,12 +254,13 @@ h2 {
     border: 2px #477edb solid;
     opacity: 0.8;
     border-radius: 30px;
+    transition-duration: 0.5s;
 }
 
 .secondary-projects img:hover {
     border: 2px #ffffff solid;
     opacity: 1;
-    transition-duration: 1.0s;
+    transition-duration: 0.5s;
 }
 
 #image-two-container {
