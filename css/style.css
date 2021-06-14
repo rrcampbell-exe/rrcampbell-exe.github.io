@@ -234,6 +234,7 @@ h2 {
 .image-one:hover {
     border: 2px #ffffff solid;
     opacity: 1;
+    transform: scale(1.02);
     transition-duration: 0.5s;
 }
 
@@ -260,6 +261,7 @@ h2 {
 .secondary-projects img:hover {
     border: 2px #ffffff solid;
     opacity: 1;
+    transform: scale(1.03);
     transition-duration: 0.5s;
 }
 
