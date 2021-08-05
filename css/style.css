@@ -3,6 +3,24 @@ nav .brand-logo {
   color: #444;
 }
 
+.about-container {
+  margin-top: 10px;
+}
+
+.dev-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#dev-photo {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.text-emphasis {
+  font-style: italic;
+}
+
 p {
   line-height: 2rem;
 }
