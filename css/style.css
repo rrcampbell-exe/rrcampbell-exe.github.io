@@ -14,7 +14,7 @@ nav .brand-logo {
 
 #dev-photo {
   border-radius: 50%;
-  width: 50%;
+  width: 65%;
 }
 
 .text-emphasis {
@@ -44,13 +44,13 @@ p {
     position: absolute;
     top: 40%;
   }
-  #index-banner .section {
+  .index-banner .section {
     top: 10%;
   }
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
+  .index-banner .section {
     top: 0;
   }
 }
