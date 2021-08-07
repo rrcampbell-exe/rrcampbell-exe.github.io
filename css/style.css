@@ -40,16 +40,20 @@ p {
   width: 100%;
 }
 
-.featured-project {
+.featured-project, .regular-project img {
   width: 100%;
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.featured-project:hover, .regular-project img:hover {
+  width: 100%;
+  opacity: 1;
+  transition-duration: 0.5s;
 }
 
 .row .regular-project {
   padding: 0;
-}
-
-.regular-project img {
-  width: 100%;
 }
 
 .project-left img {
@@ -60,12 +64,25 @@ p {
   padding-left: 2.5%;
 }
 
+.project-center img {
+  padding-bottom: -5%;
+}
+
 .regular-project div h3 {
   margin-top: 2.5%;
 }
 
 .regular-project div h5 {
   margin-bottom: 2.5%;
+}
+
+.parallax-container .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 @media only screen and (max-width : 992px) {
