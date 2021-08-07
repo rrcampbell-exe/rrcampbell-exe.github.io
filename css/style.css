@@ -42,7 +42,30 @@ p {
 
 .featured-project {
   width: 100%;
-  margin-bottom: 10px;
+}
+
+.row .regular-project {
+  padding: 0;
+}
+
+.regular-project img {
+  width: 100%;
+}
+
+.project-left img {
+  padding-right: 2.5%;
+}
+
+.project-right img {
+  padding-left: 2.5%;
+}
+
+.regular-project div h3 {
+  margin-top: 2.5%;
+}
+
+.regular-project div h5 {
+  margin-bottom: 2.5%;
 }
 
 @media only screen and (max-width : 992px) {
@@ -59,6 +82,15 @@ p {
   .index-banner .section {
     top: 0;
   }
+
+  .project-left img {
+    padding-right: 0;
+  }
+  
+  .project-right img {
+    padding-left: 0;
+  }
+
 }
 
 .icon-block {
