@@ -93,6 +93,19 @@ p {
   z-index: -1;
 }
 
+/* CUSTOM ANIMATIONS */
+
+[data-aos="spin-in"] {
+  transform: rotate(1080deg);
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+
+[data-aos="spin-in"].aos-animate {
+  transform: rotate(0);
+  opacity: 1;
+}
+
 @media only screen and (max-width : 992px) {
   .hero-container h1 {
     margin-top: 2.8rem;
