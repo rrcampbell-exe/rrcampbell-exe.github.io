@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -35,12 +36,12 @@
     <div class="section no-pad-bot">
       <div class="container hero-container">
         <br><br>
-        <h1 class="header center indigo-text">Full-Stack Developer</h1>
+        <h1 class="header center indigo-text" data-aos="zoom-in">Full-Stack Developer</h1>
         <div class="row center">
-          <h5 class="header col s12 light">leveraging backgrounds in linguistics and enterprise management</h5>
+          <h5 class="header col s12 light" data-aos="fade-right">leveraging backgrounds in linguistics and enterprise management</h5>
         </div>
         <div class="row center">
-          <a href="#projects" id="download-button" class="btn-large waves-effect waves-light indigo lighten-1">See What I'm Working On</a>
+          <a href="#projects" id="download-button" class="btn-large waves-effect waves-light indigo lighten-1" data-aos="fade-left">See What I'm Working On</a>
         </div>
         <br><br>
       </div>
@@ -53,7 +54,7 @@
   <div class="container about-container">
     <div class="section">
 
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col s12 m6 dev-photo-container">
           <img id="dev-photo" src="media/images/ryan-r-campbell-indigo-bg.jpg" alt="A profile picture of web developer Ryan Campbell">
         </div>
@@ -71,7 +72,7 @@
       </div>
 
       <!--   DEVELOPER BULLET POINTS   -->
-      <div class="row">
+      <div class="row" data-aos="fade-up">
 
         <div class="col s12 m4">
           <div class="icon-block">
@@ -113,6 +114,7 @@
               <li class="light center">Moment.js ⏳ | Iconic 🤩</li>
               <li class="light center">React 👀 | NoSQL 📊</li>
               <li class="light center">MongoDB 🦧 | MERN Stack 💿</li>
+              <li class="light center">aos.js 💃</li>
             </ul>
           </div>
         </div>
@@ -120,7 +122,7 @@
       </div>
       <div class="row">
 
-        <div class="col s12 m6">
+        <div class="col s12 m6" data-aos="fade-right">
           <div class="icon-block">
             <h2 class="center indigo-text"><i class="material-icons">group</i></h2>
             <h5 class="center">Human Languages</h5>
@@ -135,7 +137,7 @@
           </div>
         </div>
 
-        <div class="col s12 m6">
+        <div class="col s12 m6" data-aos="fade-left">
           <div class="icon-block">
             <h2 class="center indigo-text"><i class="material-icons">school</i></h2>
             <h5 class="center">Certifications & Education</h5>
@@ -159,15 +161,15 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center indigo-text text-lighten-2" id="projects">Projects</h1>
-        <div class="row center project-buttons-container">
+        <h1 class="header center indigo-text text-lighten-2" id="projects" data-aos="zoom-in">Projects</h1>
+        <div class="row center project-buttons-container" data-aos="zoom-in">
           <a href="#fun-games" class="btn-large waves-effect waves-light indigo lighten-1">Fun & Games</a>
           <a href="#enterprise" class="btn-large waves-effect waves-light indigo lighten-1">Enterprise Solutions</a>
         </div>
         <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="./media/images/free-videos-pexels-project-section-still.jpg" alt="Blurry lines of code on a monitor"></div>
+    <div class="parallax"><img data-aos="fade-up" src="./media/images/free-videos-pexels-project-section-still.jpg" alt="Blurry lines of code on a monitor"></div>
   </div>
 
   <!-- FUN & GAMES -->
@@ -178,15 +180,15 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send indigo-text"></i></h3>
-          <h4 id="fun-games">🎮</h4>
-          <h4>Fun & Games</h4>
-          <h5 class="light">All work and no play makes for one dull web.</h5>
-          <p class="left-align light">A combat simulator for fans of Dungeons & Dragons and Pokémon. A bingo card for viewers of everyone's favorite Twitch channel. A storyline generator for tabletop fantasy roleplaying games.</p> 
-          <p class="light center">How will <span class="text-emphasis indigo-text">you</span> spend the next hour?</p>
+          <h4 id="fun-games" data-aos="spin-in" data-aos-duration="1500">🎮</h4>
+          <h4 data-aos="zoom-in">Fun & Games</h4>
+          <h5 class="light" data-aos="zoom-in">All work and no play makes for one dull web.</h5>
+          <p class="left-align light" data-aos="zoom-in">A combat simulator for fans of Dungeons & Dragons and Pokémon. A bingo card for viewers of everyone's favorite Twitch channel. A storyline generator for tabletop fantasy roleplaying games.</p> 
+          <p class="light center" data-aos="zoom-in">How will <span class="text-emphasis indigo-text">you</span> spend the next hour?</p>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <a href="https://rrcampbell-exe.github.io/who-would-win/" target="_blank">
         <div class="parallax-container valign-wrapper index-banner featured-project">
           <div class="section no-pad-bot">
@@ -204,7 +206,7 @@
         </a>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <a href="https://rrcampbell-exe.github.io/yarnsworths-tales/" target="_blank">
         <div class="parallax-container valign-wrapper index-banner featured-project">
           <div class="section no-pad-bot">
@@ -223,7 +225,7 @@
       </div>
 
       <div class="row">
-        <div class="col s12 m6 regular-project project-left">
+        <div class="col s12 m6 regular-project project-left" data-aos="fade-right">
           <a href="https://rrcampbell-exe.github.io/happy-tree-bingo/" target="_blank">
           <img src="./media/images/projects/happy-tree-bingo.jpg" alt="A smiling pine tree with confetti and a goat with the word 'hype!' written beneath it sit against a pixelated green background">
           </a>
@@ -233,7 +235,7 @@
           </div>
         </div>
 
-        <div class="col s12 m6 regular-project project-right">
+        <div class="col s12 m6 regular-project project-right" data-aos="fade-left">
           <a href="https://rrcampbell-exe.github.io/haunters-mansion/" target="_blank">
           <img src="./media/images/projects/haunters-mansion.jpg" alt="The ghost Pokémon Haunter floats against the pixelated interior of a mansion">
           </a>
@@ -255,15 +257,15 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send indigo-text"></i></h3>
-          <h4 id="enterprise">💡</h4>
-          <h4>Enterprise Solutions</h4>
-          <h5 class="light">Because you have to know when to get down to business.</h5>
-          <p class="left-align light">A highly stylish password generator. A one-stop app for README generation. An interface to create an employee-data repository. A strikingly tidy task-tracking utility.</p> 
-          <p class="light center">This is the first step in <span class="text-emphasis indigo-text">streamlining operations together.</span></p>
+          <h4 id="enterprise" data-aos="zoom-in">💡</h4>
+          <h4 data-aos="zoom-in">Enterprise Solutions</h4>
+          <h5 class="light" data-aos="zoom-in">Because you have to know when to get down to business.</h5>
+          <p class="left-align light" data-aos="zoom-in">A highly stylish password generator. A one-stop app for README generation. An interface to create an employee-data repository. A strikingly tidy task-tracking utility.</p> 
+          <p class="light center" data-aos="zoom-in">This is the first step in <span class="text-emphasis indigo-text">streamlining operations together.</span></p>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <a href="https://rrcampbell-exe.github.io/js-pass-gen/" target="_blank">
         <div class="parallax-container valign-wrapper index-banner featured-project">
           <div class="section no-pad-bot">
@@ -286,7 +288,7 @@
         </a>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <a href="https://github.com/rrcampbell-exe/readme-generator" target="_blank">
         <div class="parallax-container valign-wrapper index-banner featured-project">
           <div class="section no-pad-bot">
@@ -310,7 +312,7 @@
       </div>
 
       <div class="row">
-        <div class="col s12 m6 regular-project project-left">
+        <div class="col s12 m6 regular-project project-left" data-aos="fade-right">
           <a href="https://github.com/rrcampbell-exe/employee-profile-generator" target="_blank">
           <img src="./media/images/projects/profile-generator.jpg" alt="A command line with prompts for employee data is juxtaposed against a background featuring a person and a laptop">
           </a>
@@ -320,7 +322,7 @@
           </div>
         </div>
 
-        <div class="col s12 m6 regular-project project-right">
+        <div class="col s12 m6 regular-project project-right" data-aos="fade-left">
           <a href="https://rrcampbell-exe.github.io/taskmaster-pro/" target="_blank">
           <img src="./media/images/projects/taskmaster-pro.jpg" alt="A header reading 'Taskmaster Pro Edition' looms over two buttons to add or delete tasks, respectively">
           </a>
@@ -341,32 +343,32 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center indigo-text" id="contact">Contact</h1>
+        <h1 class="header center indigo-text" id="contact" data-aos="zoom-in">Contact</h1>
         <div class="row center">
-          <h5 class="header col s12 indigo-text text-lighten-2 light">tell me what we're tackling next</h5>
+          <h5 class="header col s12 indigo-text text-lighten-2 light" data-aos="zoom-in">tell me what we're tackling next</h5>
         </div>
         <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="./media/images/tara-winstead-pexels-contact.jpg" alt="A notebook, open, rests against a pink backdrop"></div>
+    <div class="parallax"><img src="./media/images/tara-winstead-pexels-contact.jpg" alt="A notebook, open, rests against a pink backdrop" data-aos="zoom-in"></div>
   </div>
 
   <footer class="page-footer indigo" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col l3 s12">
+        <div class="col l3 s12" data-aos="fade-right">
           <h5 class="white-text">Email</h5>
           <a href="mailto:campbell.ryan.r@gmail.com"><p class="grey-text text-lighten-4">campbell.ryan.r@gmail.com</p></a>
         </div>
-        <div class="col l3 s12">
+        <div class="col l3 s12" data-aos="fade-right">
           <h5 class="white-text">Phone</h5>
           <a href="tel:2623051743"><p class="grey-text text-lighten-4">(262) 305-1743</p></a>
         </div>
-        <div class="col l3 s12">
+        <div class="col l3 s12" data-aos="fade-left">
           <h5 class="white-text">LinkedIn</h5>
           <a href="https://www.linkedin.com/in/ryan-campbell-aa33169/" target="_blank"><p class="grey-text text-lighten-4">Connect with me here.</p></a>
         </div>
-        <div class="col l3 s12">
+        <div class="col l3 s12" data-aos="fade-left">
           <h5 class="white-text">GitHub</h5>
           <a href="https://github.com/rrcampbell-exe" target="_blank"><p class="grey-text text-lighten-4">See what I've got in the works.</p></a>
         </div>
@@ -385,6 +387,10 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   </body>
 </html>
