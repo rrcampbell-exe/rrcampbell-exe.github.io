@@ -16,7 +16,8 @@ This is the web development portfolio for Ryan Campbell.
  - JavaScript
  
  ## Features and Utilities
- - Materialize CSS
+ - [Materialize CSS](https://materializecss.com/about.html)
+ - [aos.js](https://github.com/michalsnik/aos)
 
 
 ## Credits
