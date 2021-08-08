@@ -7,6 +7,14 @@ nav .brand-logo {
   color: #444;
 }
 
+.indigo-header {
+  text-shadow: white 0px 1px 60px;
+}
+
+.subheader-shadow {
+  text-shadow: black 0px 1px 15px;
+}
+
 .hero-container h1 {
   margin-top: 3.5rem;
 }
@@ -58,6 +66,10 @@ p {
   width: 100%;
   opacity: 1;
   transition-duration: 0.5s;
+}
+
+.project-titles {
+  text-shadow: black 0px 1px 30px;
 }
 
 .row .regular-project {
