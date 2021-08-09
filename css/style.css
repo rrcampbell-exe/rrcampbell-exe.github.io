@@ -96,6 +96,24 @@ p {
   margin-bottom: 2.5%;
 }
 
+.regular-project-container-left {
+  display: flex;
+  flex-wrap:initial;
+}
+
+.regular-project-container-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.github-links {
+  color: #9fa8da;
+}
+
+.github-logo {
+  max-height: 16px;
+}
+
 .parallax-container .video {
   position: absolute;
   top: 0;
