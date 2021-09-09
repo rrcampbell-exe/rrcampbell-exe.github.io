@@ -56,13 +56,13 @@ p {
   width: 100%;
 }
 
-.featured-project, .regular-project img {
+.featured-project, .regular-project img, .project-left, .project-right {
   width: 100%;
   opacity: 0.8;
   transition-duration: 0.5s;
 }
 
-.featured-project:hover, .regular-project img:hover {
+.featured-project:hover, .regular-project img:hover, .project-left:hover, .project-right:hover {
   width: 100%;
   opacity: 1;
   transition-duration: 0.5s;
@@ -82,6 +82,13 @@ p {
 
 .project-right img {
   padding-left: 2.5%;
+}
+.project-right .video-secondary {
+  padding-left: 3%;
+}
+
+.project-left .video-secondary {
+  padding-right: 3%;
 }
 
 .project-center img {
