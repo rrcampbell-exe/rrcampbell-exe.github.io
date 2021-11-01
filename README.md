@@ -29,7 +29,9 @@ This is the web development portfolio for Ryan Campbell.
 - Projects header image via Free Videos on Pexels, edited to a still image using Canva
 - Contact header image via Tara Winstead on Pexels
 - Volley-All featured video via Kampus Production on Pexels
-- Profile Generator video via Pressmaster on Pexels
+- E-Commerce Backend video via Pressmaster on Pexels
+- Regular Warehouse video via Tiger Lily on Pexels
+- Book Search Engine video via cottonbro on Pexels
 
 ## Questions, Comments, Suggestions
 Please email [Ryan Campbell](mailto:campbell.ryan.r@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Ryan Campbell on GitHub](https://www.github.com/rrcampbell-exe/).
