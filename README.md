@@ -1,5 +1,9 @@
 # The Web Development Portfolio for Ryan Campbell
 
+## Update
+*As of May 2024, the new home for this content can be found online [here](https://www.ryanrcampbell.com).* 
+
+*The codebase for this new portfolio can be found [here](https://github.com/rrcampbell-exe/ryan-r-campbell).*
 
 ## Description
 This is the web development portfolio for Ryan Campbell.
